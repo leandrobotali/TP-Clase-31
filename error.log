@@ -1,0 +1,11 @@
+[2022-06-09T16:17:08.536] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findName')
+    at generarProductos (C:\Work Space\TP Clase 31\controllers\productos.js:10:33)
+    at C:\Work Space\TP Clase 31\routes\productos.routes.js:8:23
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 31\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Work Space\TP Clase 31\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Work Space\TP Clase 31\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Work Space\TP Clase 31\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Work Space\TP Clase 31\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Work Space\TP Clase 31\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Work Space\TP Clase 31\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Work Space\TP Clase 31\node_modules\express\lib\router\index.js:175:3)
